@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200&family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-black;
+    @apply font-Montserrat;
+  }
+  h2 {
+    @apply text-white;
+  }
+  body {
+    @apply bg-slate-200;
+  }
+}
