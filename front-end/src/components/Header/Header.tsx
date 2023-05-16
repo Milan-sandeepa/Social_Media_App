@@ -20,7 +20,7 @@ export default class Header extends Component {
     const normalLink = "cursor-ponter";
 
     return (
-      <div className="bg-[#FFFFFF] drop-shadow h-16 w-full fixed top-0 ">
+      <div className="bg-[#FFFFFF] drop-shadow h-16 w-full fixed top-0 z-10">
         <div className="flex flex-row justify-between ">
           <div className="p-0 flex items-center">
             <NavLink to={"/home"}>
@@ -28,7 +28,7 @@ export default class Header extends Component {
             </NavLink>
           </div>
           <div className="w-1/3 mt-[14px]">
-            <nav className="flex justify-between gap-28">
+            <nav className="flex justify-evenly md:gap-10 ">
               {/* <form action="">
                 <TextField
                   id="search-bar"
