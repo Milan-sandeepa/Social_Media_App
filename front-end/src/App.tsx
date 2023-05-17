@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import './App.css';
-import Content from './components/Content';
+import "./App.css";
+import Content from "./components/Content";
 
 export default class App extends Component {
-
   componentDidMount(): void {
     // console.log("Hello world");
   }
@@ -12,11 +11,8 @@ export default class App extends Component {
   render(): React.ReactNode {
     return (
       <div>
-      <Content />
-     
+        <Content />
       </div>
     );
   }
-
 }
-

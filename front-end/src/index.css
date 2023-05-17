@@ -14,6 +14,7 @@
   }
   body {
     @apply bg-slate-200;
+    @apply overflow-y-scroll  scrollbar-thumb-gray-400 scrollbar-track-gray-50 scrollbar-thin;
   }
 }
 
