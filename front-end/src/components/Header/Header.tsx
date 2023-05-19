@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import LoginIcon from "@mui/icons-material/Login";
 import logo from "../../assets/logo.png";
-import profile from "../../assets/man.png";
+
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import ElectricBoltRoundedIcon from "@mui/icons-material/ElectricBoltRounded";
 import VideoCameraBackRoundedIcon from "@mui/icons-material/VideoCameraBackRounded";
@@ -10,9 +10,6 @@ import Diversity1RoundedIcon from "@mui/icons-material/Diversity1Rounded";
 import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 import ChatBubbleRoundedIcon from "@mui/icons-material/ChatBubbleRounded";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
-import IconButton from "@mui/material/IconButton";
-import SearchIcon from "@mui/icons-material/Search";
-import TextField from "@mui/material/TextField";
 
 export default class Header extends Component {
   render() {
@@ -21,10 +18,13 @@ export default class Header extends Component {
 
     return (
       <div className="bg-[#FFFFFF] drop-shadow h-16 w-full fixed top-0 z-10">
-        <div className="flex flex-row justify-between ">
+        <div className="flex h-full flex-row justify-between ">
           <div className="p-0 flex items-center">
             <NavLink to={"/home"}>
-              <img className="w-[200px]" src={logo} alt="logo" />
+              {/* <img className="w-[200px]" src={logo} alt="logo" /> */}
+              <h1 className="font-Dancing font-bold text-[48px] text-blue-700 ps-5">
+                Frendify
+              </h1>
             </NavLink>
           </div>
           <div className="w-1/3 mt-[14px]">

@@ -13,10 +13,10 @@ export default class extends Component {
             className="hidden md:block h-screen bg-cover bg-no-repeat"
           />
           <h1 className="hidden absolute top-10  font-Montserrat font-semibold md:block text-slate-50 text-[72px] left-5">
-            waarfia
+            Frendify
           </h1>
           <p className="hidden absolute top-[150px] font-Montserrat font-semibold md:text-[14px] lg:text-[20px] xl:text-[28px] md:block text-slate-50  left-5">
-            waarfia helps you <br /> connect and share with the people in your
+            Frendify helps you <br /> connect and share with the people in your
             life.
           </p>
         </div>
